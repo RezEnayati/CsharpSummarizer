@@ -18,7 +18,7 @@ namespace MyFirstApp
     static async Task Main(string[] args) {
       var summary = await new OpenAIservice(text).getSummary();
       System.Console.WriteLine(summary);
-      
+
     }
   }  
 } 
